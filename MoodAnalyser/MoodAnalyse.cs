@@ -41,5 +41,18 @@ namespace MoodAnalyser
                 return "Happy";
             }
         }
+
+        public string mood = "No Mood";
+        public void CustomMood(string mood)
+        {
+            if (mood.Contains("Any"))
+            {
+                throw new CustomException("I am in Any Mood");
+            }
+            else
+            {
+                Console.WriteLine("Mood : "+mood); ;
+            }
+        }
     }
 }
