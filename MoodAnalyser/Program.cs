@@ -10,6 +10,16 @@ namespace MoodAnalyser
     {
         static void Main(string[] args)
         {
+            //try
+            //{
+            //    MoodAnalyse moodAnalyse = new MoodAnalyse();
+            //    string mood = moodAnalyse.AnalyseMood("I am in Null Mood");
+            //    Console.WriteLine($"Mood is : {mood}");
+            //}
+            //catch(Exception ex)
+            //{
+            //    Console.WriteLine($"Exception is : {ex.Message}"); 
+            //} 
         }
     }
 }
